@@ -51,21 +51,21 @@ export default {
             isModalVisible: false,
             selectedPlan: {},
             plans: [{
-                name: 'Monthly',
+                name: 'Bronze',
                 discount: '12.99',
                 oldprice: '45.99',
                 properties: ['Create up to 20 users', 'Create up to 20 API keys'],
                 desc: "Level up your career with a monthly plan that can be cancelled at any time"
             },
             {
-                name: 'Yearly',
+                name: 'Silver',
                 discount: '75.99',
                 oldprice: '129.99',
                 properties: ['Create up to 70 users', 'Create up to 50 API keys', '10 chatrooms', 'Staff Mgt System'],
                 desc: "commit to your business growth up your career with a yearly plan that can be cancelled at any time"
             },
             {
-                name: 'Lifetime',
+                name: 'Gold',
                 discount: '280.99',
                 oldprice: '390.99',
                 properties: ['Create unlimited users', 'Create up to 120 API keys','Unlimited chatrooms', 'Staff Mgt System', 'Business charts & Accounts.'],
